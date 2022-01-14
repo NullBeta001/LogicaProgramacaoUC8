@@ -5,6 +5,9 @@
 //Data do evento = Quinta-feira, 03 de Fevereiro de 2022.
 //
 
+const entrada = require('prompt-sync')()
+let teclado
+
 let listaDeParticipantes = ["Helena", "Fábio", "Pedro", "Paulo", "Fernando", "Vinícius", "Wilson"];
 let participantes = listaDeParticipantes.length;
 let listaPart = listaDeParticipantes.length
@@ -25,7 +28,11 @@ console.log("Data atual", formatData(dataAtual))
 let = dataDoEvento = new Date("2022-02-03")
 if (dataAtual < dataDoEvento) {
     console.log("Data de cadastro válda!")
-    console.log("Insira sua idade:")
+  
+    teclado = entrada("Insira a sua idade: ");
+
+    console.log(`teclado = ${teclado}`)
+
     if (idadeAproximada >= 18) {
             console.log("Idade permitida!")
             console.log("Lista de Participantes:")
