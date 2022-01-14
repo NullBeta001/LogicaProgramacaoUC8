@@ -8,12 +8,12 @@ Idade do participante
 	Se a idade do participante for maior ou igual a 18 anos, permitir cadastro - OK
 	Se não, aletar que o cadasro não será concluído por causa da idade. - OK
 
-CONSERTAR BUG DE CONFLITO DE MÊS NA DATA ATUAL
+CONSERTAR BUG DE CONFLITO DE MÊS NA DATA ATUAL - OK
 
-Listar todos os participantes e palestrantes do evento
+Listar todos os participantes e palestrantes do evento - OK
 
 Quantidade de participantes
-	Se a quantidade de participantes for inferior a 100, permitir cadastro
-	Se não, alertar que o cadastro não foi concluído por limite excedido.
+	Se a quantidade de participantes for inferior a 100, permitir cadastro - OK
+	Se não, alertar que o cadastro não foi concluído por limite excedido. - OK
 
 Criar um fluxograma com todos os requisitos que devem ser atendidos pelo sistema.

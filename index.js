@@ -5,41 +5,45 @@
 //Data do evento = Quinta-feira, 03 de Fevereiro de 2022.
 //
 
-let = dataAtual = new Date();
+let listaDeParticipantes = ["Helena", "Fábio", "Pedro", "Paulo", "Fernando", "Vinícius"];
+let participantes = listaDeParticipantes.length;
+let listaPart = listaDeParticipantes.length
+
+let dataAtual = new Date();
+
+let idadeAproximada = 18
+
+let quantidadeParticipantes = 100
+
 function formatData(dataAtual){
     let newDate = new Date(dataAtual);
     return `${newDate.getDate()}/${newDate.getMonth()+1}/${newDate.getFullYear()}`
 }
+
 console.log("Data atual", formatData(dataAtual))
 
 let = dataDoEvento = new Date("2022-02-03")
-if (dataAtual > dataDoEvento) {
-    console.log("Data de cadastro inválda!")
+if (dataAtual < dataDoEvento) {
+    console.log("Data de cadastro válda!")
+    if (idadeAproximada >= 18) {
+            console.log("Idade permitida!")
+            console.log("Lista de Participantes:")
+            for (let indice = 0; indice < listaPart; indice++) {
+                const listaTotal = listaDeParticipantes[indice];
+                console.log(listaTotal)
+            }
+                    console.log("Quantidade total de participantes", participantes);
+                
+
+        if (quantidadeParticipantes < 100) {
+            console.log("Seu cadastro foi concluido com sucesso!")
+
+        }else{
+            console.log("Quantidade máxima de participantes atingida, cadastro cancelado!")
+        }
+    }else{
+        console.log("Idade minima de 18 anos, cadastro cancelado!")
+    }
 }else{
-    console.log("Data válida")
+    console.log("Data de cadastro inválida, cadastro cancelado!")
 }
-
-//Inserir a data de nascimento, caso seja maior de 18 anos ok.
-//Se for menor, cadastro será cancelado.
-
-let = dataNascimento = new Date(2002,01,22)
-let = dataAtual = new Date();
-function formatData(dataNascimento){
-    let newDate = new Date(dataNascimento);
-    return `${newDate.getDate()}/${newDate.getMonth()}/${newDate.getFullYear()}`
-}
-console.log("Data de Nascimento", formatData(dataNascimento))
-
-let idadePadrao = (dataAtual.getTime() - dataNascimento.getTime());
-let diasDiferenca = Math.ceil(idadePadrao / (1000 * 60 * 60 * 24));
-
-let idadeAproximada = Math.round(diasDiferenca / 365)
-
-console.log("A sua idade é de", idadeAproximada)
-
-if (idadeAproximada >= 18){
-    console.log("Idade permitida!")
-}else{
-    console.log("Idade mínima 18 anos, cadastro cancelado!")
-}
-
