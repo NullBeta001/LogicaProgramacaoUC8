@@ -5,7 +5,7 @@
 //Data do evento = Quinta-feira, 03 de Fevereiro de 2022.
 //
 
-let listaDeParticipantes = ["Helena", "Fábio", "Pedro", "Paulo", "Fernando", "Vinícius"];
+let listaDeParticipantes = ["Helena", "Fábio", "Pedro", "Paulo", "Fernando", "Vinícius", "Wilson"];
 let participantes = listaDeParticipantes.length;
 let listaPart = listaDeParticipantes.length
 
@@ -13,7 +13,7 @@ let dataAtual = new Date();
 
 let idadeAproximada = 18
 
-let quantidadeParticipantes = 100
+let quantidadeParticipantes = participantes
 
 function formatData(dataAtual){
     let newDate = new Date(dataAtual);
@@ -25,6 +25,7 @@ console.log("Data atual", formatData(dataAtual))
 let = dataDoEvento = new Date("2022-02-03")
 if (dataAtual < dataDoEvento) {
     console.log("Data de cadastro válda!")
+    console.log("Insira sua idade:")
     if (idadeAproximada >= 18) {
             console.log("Idade permitida!")
             console.log("Lista de Participantes:")
@@ -32,9 +33,7 @@ if (dataAtual < dataDoEvento) {
                 const listaTotal = listaDeParticipantes[indice];
                 console.log(listaTotal)
             }
-                    console.log("Quantidade total de participantes", participantes);
-                
-
+                console.log("Quantidade total de participantes", participantes);
         if (quantidadeParticipantes < 100) {
             console.log("Seu cadastro foi concluido com sucesso!")
 
