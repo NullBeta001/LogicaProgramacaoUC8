@@ -33,7 +33,7 @@ if (dataAtual < dataDoEvento) {
 
     console.log(`teclado = ${teclado}`)
 
-    if (idadeAproximada >= 18) {
+    if (teclado >= 18) {
             console.log("Idade permitida!")
             console.log("Lista de Participantes:")
             for (let indice = 0; indice < listaPart; indice++) {
