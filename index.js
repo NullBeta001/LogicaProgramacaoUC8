@@ -41,7 +41,7 @@ if (dataAtual < dataDoEvento) {
                 console.log(listaTotal)
             }
                 console.log("Quantidade total de participantes", participantes);
-        if (quantidadeParticipantes < 100) {
+             if (quantidadeParticipantes < 100) {
             console.log("Seu cadastro foi concluido com sucesso!")
 
         }else{
@@ -53,3 +53,5 @@ if (dataAtual < dataDoEvento) {
 }else{
     console.log("Data de cadastro inválida, cadastro cancelado!")
 }
+
+//Também foi feito um código sem o input, para que se for preciso, possamos usá-lo.
