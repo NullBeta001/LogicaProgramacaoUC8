@@ -54,4 +54,5 @@ if (dataAtual < dataDoEvento) {
     console.log("Data de cadastro inválida, cadastro cancelado!")
 }
 
-//Também foi feito um código sem o input, para que se for preciso, possamos usá-lo.
+//Também foi feito um código sem o input, para que se for preciso.
+//Código sem input = Noinput.js
