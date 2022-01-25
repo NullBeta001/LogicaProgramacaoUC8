@@ -18,4 +18,5 @@ switch (alimentoSelecionado) {
     default:
         console.log ("o item não consta na lista")
         break;
+        
 }
